@@ -18,7 +18,6 @@ SampleRate=320
 n = py.linspace(0,320,320)
 toencode=input("Please Enter the String to Encode: ")
 siglist = []
-
 for c in toencode:
     for i in range(0,len(rows)):
         if c.lower() == rows[i][0]:
